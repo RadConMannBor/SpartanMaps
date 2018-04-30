@@ -514,6 +514,9 @@
 		F71EFC9F2096BD890036E04E /* server-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F71EFBD62096BD880036E04E /* server-7.png */; };
 		F71EFCA02096BD890036E04E /* iconbeast lite 200 - license.txt in Resources */ = {isa = PBXBuildFile; fileRef = F71EFBD72096BD880036E04E /* iconbeast lite 200 - license.txt */; };
 		F71EFCAA20970E020036E04E /* ClubsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EFCA920970E020036E04E /* ClubsTableViewController.swift */; };
+		F7F6FBD22097BF13001BC770 /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6FBD12097BF13001BC770 /* DepartmentsTableViewController.swift */; };
+		F7F6FBD42097C033001BC770 /* TeachersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6FBD32097C033001BC770 /* TeachersTableViewController.swift */; };
+		F7F6FBD62097C09B001BC770 /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6FBD52097C09B001BC770 /* AdminTableViewController.swift */; };
 		FF21EB6C207EC6B30050FBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF21EB6B207EC6B20050FBFA /* Assets.xcassets */; };
 		FF502738206B18030022D8C9 /* SpartanMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */; };
 		FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF502756206B18F00022D8C9 /* CloudKit.framework */; };
@@ -1044,6 +1047,9 @@
 		F71EFBD62096BD880036E04E /* server-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "server-7.png"; sourceTree = "<group>"; };
 		F71EFBD72096BD880036E04E /* iconbeast lite 200 - license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iconbeast lite 200 - license.txt"; sourceTree = "<group>"; };
 		F71EFCA920970E020036E04E /* ClubsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsTableViewController.swift; sourceTree = "<group>"; };
+		F7F6FBD12097BF13001BC770 /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
+		F7F6FBD32097C033001BC770 /* TeachersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersTableViewController.swift; sourceTree = "<group>"; };
+		F7F6FBD52097C09B001BC770 /* AdminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTableViewController.swift; sourceTree = "<group>"; };
 		FF21EB6B207EC6B20050FBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF50272C206B18030022D8C9 /* SpartanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpartanMap.xcdatamodel; sourceTree = "<group>"; };
@@ -1707,7 +1713,10 @@
 			isa = PBXGroup;
 			children = (
 				FF5027A6206B25090022D8C9 /* HomeViewController.swift */,
+				F7F6FBD12097BF13001BC770 /* DepartmentsTableViewController.swift */,
 				F71EFCA920970E020036E04E /* ClubsTableViewController.swift */,
+				F7F6FBD32097C033001BC770 /* TeachersTableViewController.swift */,
+				F7F6FBD52097C09B001BC770 /* AdminTableViewController.swift */,
 				F709D578209006AE002602FD /* Artwork.swift */,
 			);
 			path = Home;
@@ -2435,7 +2444,10 @@
 				FFE8621C2076D99A00C5B8DD /* AppDelegate.swift in Sources */,
 				FF5027B8206B252D0022D8C9 /* RoundedWhiteButton.swift in Sources */,
 				F71EF651209685800036E04E /* BuildingsModel.swift in Sources */,
+				F7F6FBD42097C033001BC770 /* TeachersTableViewController.swift in Sources */,
+				F7F6FBD62097C09B001BC770 /* AdminTableViewController.swift in Sources */,
 				FF50279F206B24F40022D8C9 /* SignUpViewController.swift in Sources */,
+				F7F6FBD22097BF13001BC770 /* DepartmentsTableViewController.swift in Sources */,
 				F709D579209006AE002602FD /* Artwork.swift in Sources */,
 				FF5027B2206B251D0022D8C9 /* ImageService.swift in Sources */,
 			);
