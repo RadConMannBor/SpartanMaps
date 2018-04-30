@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  FirebaseApp
 //
-//  Created by Yosimy Cortes on 2018-03-13.
+//  Created by Yosimy Cortes and Conrad Bormann on 2018-03-13.
 //  Copyright © 2018 Yosimy Cortes. All rights reserved.
 //
 
@@ -15,6 +15,7 @@ class HomeViewController:UIViewController, UITableViewDelegate {
     
     @IBOutlet weak var MapView: MKMapView!
     
+    @IBOutlet weak var Buildings: UIBarButtonItem!
     @IBOutlet weak var UserProfile: UIButton!
     
     override func viewDidLoad() {
@@ -91,7 +92,7 @@ class HomeViewController:UIViewController, UITableViewDelegate {
                                 discipline: "KING",
                                 coordinate: CLLocationCoordinate2D(latitude: 37.335453603217054, longitude: -121.88501686418499))
         MapView.addAnnotation(artwork14)
-        let artwork15 = Artwork(title: "Factulty Offices",
+        let artwork15 = Artwork(title: "Faculty Offices",
                                 locationName: "San Jose State University",
                                 discipline: "FOB",
                                 coordinate: CLLocationCoordinate2D(latitude: 37.33460490437933, longitude: -121.88262011850293))
