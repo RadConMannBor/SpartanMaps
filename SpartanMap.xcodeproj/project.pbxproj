@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE41BE06EEFF669FD7834722 /* Pods_SpartanMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */; };
+		F709D579209006AE002602FD /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709D578209006AE002602FD /* Artwork.swift */; };
 		FF21EB6C207EC6B30050FBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF21EB6B207EC6B20050FBFA /* Assets.xcassets */; };
 		FF502738206B18030022D8C9 /* SpartanMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */; };
 		FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF502756206B18F00022D8C9 /* CloudKit.framework */; };
@@ -32,6 +33,7 @@
 		06494D54E006D6D83FF73AA4 /* Pods-SpartanMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8C106EA03DA0632855DDE1 /* Pods-SpartanMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap.release.xcconfig"; sourceTree = "<group>"; };
 		62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F709D578209006AE002602FD /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		FF21EB6B207EC6B20050FBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF50272C206B18030022D8C9 /* SpartanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpartanMap.xcdatamodel; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				FF5027A6206B25090022D8C9 /* HomeViewController.swift */,
+				F709D578209006AE002602FD /* Artwork.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				FFE8621C2076D99A00C5B8DD /* AppDelegate.swift in Sources */,
 				FF5027B8206B252D0022D8C9 /* RoundedWhiteButton.swift in Sources */,
 				FF50279F206B24F40022D8C9 /* SignUpViewController.swift in Sources */,
+				F709D579209006AE002602FD /* Artwork.swift in Sources */,
 				FF5027B2206B251D0022D8C9 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

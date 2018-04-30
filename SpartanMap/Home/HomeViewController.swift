@@ -14,7 +14,7 @@ class HomeViewController:UIViewController, UITableViewDelegate {
     var tableView:UITableView!
     
     @IBOutlet weak var MapView: MKMapView!
-    
+    @IBOutlet weak var BuildingsButton: UIBarButtonItem!
     @IBOutlet weak var UserProfile: UIButton!
     
     override func viewDidLoad() {
