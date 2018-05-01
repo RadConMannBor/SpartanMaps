@@ -666,7 +666,7 @@
                         <segue destination="SFg-0b-iSz" kind="relationship" relationship="viewControllers" id="1kz-zi-AVx"/>
                         <segue destination="mOE-sa-1yb" kind="relationship" relationship="viewControllers" id="VOC-tH-201"/>
                         <segue destination="zDW-xw-ePh" kind="relationship" relationship="viewControllers" id="TzI-aw-9kH"/>
-                        <segue destination="43c-GU-heU" kind="relationship" relationship="viewControllers" id="UEN-sE-HO1"/>
+                        <segue destination="94E-9J-PTe" kind="relationship" relationship="viewControllers" id="nn0-vY-1r1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9k-kS-zYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -824,36 +824,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyO-0Y-b4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10141" y="2468"/>
+            <point key="canvasLocation" x="10142" y="2468"/>
         </scene>
         <!--Administration-->
-        <scene sceneID="BxD-1t-5Bm">
+        <scene sceneID="jdC-h4-AvP">
             <objects>
-                <viewController id="43c-GU-heU" customClass="AdminTableViewController" customModule="SpartanMap" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AOf-0H-1wd">
+                <tableViewController id="94E-9J-PTe" customClass="AdminTableViewController" customModule="SpartanMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IA1-19-gvn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AdminCell" id="wR3-rg-LJ1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdminCell" id="47s-Vo-0Gl">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wR3-rg-LJ1" id="0cK-8Z-9AO">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="47s-Vo-0Gl" id="VAe-v5-3Fh">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="43c-GU-heU" id="Rec-XP-4NO"/>
-                            <outlet property="delegate" destination="43c-GU-heU" id="do6-bf-oG3"/>
-                        </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Administration" image="graduation-cap.png" selectedImage="graduation-cap.png" id="HGk-4b-Uu9"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qQq-VW-Gpm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    <tabBarItem key="tabBarItem" title="Administration" image="graduation-cap.png" selectedImage="graduation-cap.png" id="dsu-ZS-mtT"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7K-ib-WgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10141" y="1803"/>
+            <point key="canvasLocation" x="10970" y="2474"/>
         </scene>
     </scenes>
     <resources>

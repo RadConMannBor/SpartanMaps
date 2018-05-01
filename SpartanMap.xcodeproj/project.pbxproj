@@ -519,7 +519,6 @@
 		F7F6FBD62097C09B001BC770 /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6FBD52097C09B001BC770 /* AdminTableViewController.swift */; };
 		FF21EB6C207EC6B30050FBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF21EB6B207EC6B20050FBFA /* Assets.xcassets */; };
 		FF502738206B18030022D8C9 /* SpartanMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */; };
-		FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF502756206B18F00022D8C9 /* CloudKit.framework */; };
 		FF502759206B194D0022D8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF502758206B194C0022D8C9 /* GoogleService-Info.plist */; };
 		FF50275D206B19E60022D8C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF50275C206B19E60022D8C9 /* MapKit.framework */; };
 		FF50279D206B24F40022D8C9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF502799206B24F30022D8C9 /* MenuViewController.swift */; };
@@ -1054,7 +1053,6 @@
 		FF50272C206B18030022D8C9 /* SpartanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpartanMap.xcdatamodel; sourceTree = "<group>"; };
 		FF502754206B18EA0022D8C9 /* SpartanMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpartanMap.entitlements; sourceTree = "<group>"; };
-		FF502756206B18F00022D8C9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		FF502758206B194C0022D8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF50275C206B19E60022D8C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FF502799206B24F30022D8C9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -1079,7 +1077,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF50275D206B19E60022D8C9 /* MapKit.framework in Frameworks */,
-				FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */,
 				BE41BE06EEFF669FD7834722 /* Pods_SpartanMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1675,7 +1672,6 @@
 			isa = PBXGroup;
 			children = (
 				FF50275C206B19E60022D8C9 /* MapKit.framework */,
-				FF502756206B18F00022D8C9 /* CloudKit.framework */,
 				62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */,
 			);
 			name = Frameworks;
@@ -1775,7 +1771,7 @@
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};

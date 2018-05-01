@@ -3,7 +3,7 @@
 //  SpartanMap
 //
 //  Created by Conrad Bormann on 4/30/18.
-//  Copyright © 2018 Yosimy Cortes. All rights reserved.
+//  Copyright © 2018 Conrad Bormann. All rights reserved.
 //
 import UIKit
 import Foundation
@@ -58,14 +58,14 @@ class AdminTableViewController: UITableViewController
         case 19:
             admin = ["test"]
         case 20:
-            admin = ["test"]
+            admin = ["Engineering Success Center","Engineering Outreach Program"]
         case 21:
-            admin = ["American Association of Airport Executives (AAAE)"," American Concrete Institute (ACI)","American Institute of Aeronautics & Astronautics (AIAA)" ,"American Institute of Chemical Engineers (AIChE)"," American Society of Civil Engineers (ASCE)"," American Society of Heating, Refrigerating & Air- Conditioning Engineers (ASHRAE)","American Society of Mechanical Engineers (ASME)"," Associated Ge Association of Facilities Engineers (AFE)"," Biomedical Engineering Society (BMES)","neral Contractors (AGC)","Human Factors and Ergonomics Society","Institute of Electrical & Electronic Engineers (IEEE)"," IEEE – Components, Packaging, & Manufacturing Technology (CMPT)","Institute of Industrial Engineers (IIE)","Institute of Transportation Engineers (ITE)","Int’l Society for Pharmaceutical Engineers (ISPE) Materials Advantage","Society for Computer Engineering (SCE)","Society of Automotive Engineers Int’l (SAE)","Society of Manufacturing Engineers (SME)","Society of Plastic Engineers (SPE)","Water Environment Engineering Organization (WEEO)","Amateur Radio Club","Applied Engineering Club","Concrete Canoe Team","Earthquake Engineering Research Institute The Flying 20","Project Enable"," Robotics Club"," SAE – Baja Vehicle","SAE – Formula Vehicle","SAE – Hybrid/Electric Vehicle","SJSU Precision Flight Team","Spartan AUV – autonomous unmanned vehicle Steel Bridge Team","Wastewater Treatment Team","Black Alliance of Scientists and Engineers (BASE)"," Engineering to Harness & Optimize Sustainability (ETHOS)","Engineers Without Borders","Society of Latino Engineers and Scientists (SOLES)","Society of Women Engineers (SWE)","Vietnamese Engineering Students Association Women in Aviation"]
+            admin = ["Engineering Success Center","Engineering Outreach Program"]
             
         case 22:
-            admin = ["testyah"]
+            admin = ["test22"]
         case 23:
-            admin = ["teaytasdktj;oaw"]
+            admin = ["test23"]
         case 24:
             admin = [""]
         case 25:
@@ -115,7 +115,7 @@ class AdminTableViewController: UITableViewController
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ClubCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AdminCell", for: indexPath)
         // Configure the cell...
         cell.textLabel?.text = admin[indexPath.row]
         return cell

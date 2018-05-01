@@ -6,6 +6,55 @@
 //  Copyright © 2018 Conrad Bormann. All rights reserved.
 //
 
+/*[
+ 0"Administration",
+ 1"Art Building",
+ 2"AS Print Shop",
+ 3"Associated Students House",
+ 4"Boccardo Business Complex",
+ 5"Bookstore",
+ 6"Business Tower",
+ 
+ 6"Campus Village 2",
+ 7"Campus Village A",
+ 8"Campus Village B",
+ 9"Campus Village C",
+ 10"Career Center",
+ 11"Computer Center",
+ 12"Central classroom Building",
+ 13"Clark Hall",
+ 14"Concert Hall",
+ 15"Dining Commons",
+ 16"Dudley Moorhead Hall",
+ 17"Duncan Hall",
+ 18"Dwight Bentel Hall",
+ 19"Engineering Building",
+ 20"Event Center",
+ 21"Faculty Offices",
+ 22"Health Building",
+ 23"Hugh Gillis Hall",
+ 24"Industrial Studies",
+ 25"Instructional Resource Center"
+ 26  ,"Dr. Martin Luther King Jr. Library",
+ 27    "MacQuarrie Hall",
+ 28  "Morris Dailey Auditorium",
+ 29  "Music Building",
+ 30   "Science Building",
+ 31   "Spartan Complex Centeral",
+ 32  "Spartan Memorial",
+ 33   "Student Recreation and Aquatic Center",
+ 34  "Student Wellness Center",
+ 35  "Student Sevices Center",
+ 36 "Diaz Compean Student Union",
+ 37   "Student Wellness Center",
+ 38   "Sweeney Hall",
+ 39    "Tower Hall",
+ 40   "University Police Department",
+ 41  "University Theatre",
+ 42  "Washington Square Hall",
+ 43  "Yoshihiro Uchida Hall"]
+ */
+
 import UIKit
 import Foundation
 
@@ -19,19 +68,19 @@ class DepartmentsTableViewController: UITableViewController
         switch myIndex
         {
         case 0:
-            dep = [""]
-        case 1:
-            dep = ["Art Club","Graphics Arts Club"]
-        case 2:
-            dep = [""]
-        case 3:
-            dep = [""]
-        case 4:
-            dep = [""]
-        case 5:
-            dep = [""]
-        case 6:
             dep = ["none"]
+        case 1:
+            dep = ["Department of Art and History","Graphics Arts Club"]
+        case 2:
+            dep = ["none"]
+        case 3:
+            dep = ["none"]
+        case 4:
+            dep = ["none"]
+        case 5:
+            dep = ["none"]
+        case 6:
+            dep = ["African Studies Program",""]
         case 7:
             dep = ["none"]
         case 8:
@@ -57,18 +106,18 @@ class DepartmentsTableViewController: UITableViewController
         case 18:
             dep = ["none"]
         case 19:
-            dep = ["test"]
+            dep = ["Aerospace Enginering Department","Aerospace Studies department (Airforce ROTC)","Biomedical Engineering Department","Chemical and Materials Engineering Department","Civil and Environment Engineering Department","Computer Engineering","General Engineering","Industrial and System Engineering","Information School","Mathematics and Statistics Department","Mechanical Engineering Department","Nuclear Science Program"]
         case 20:
-            dep = ["test"]
+            dep = ["Aerospace Enginering Department","Aerospace Studies department (Airforce ROTC)","Biomedical Engineering Department","Chemical and Materials Engineering Department","Civil and Environment Engineering Department","Computer Engineering","General Engineering","Industrial and System Engineering","Information School","Mathematics and Statistics Department","Mechanical Engineering Department","Nuclear Science Program"]
         case 21:
-            dep = ["American Association of Airport Executives (AAAE)"," American Concrete Institute (ACI)","American Institute of Aeronautics & Astronautics (AIAA)" ,"American Institute of Chemical Engineers (AIChE)"," American Society of Civil Engineers (ASCE)"," American Society of Heating, Refrigerating & Air- Conditioning Engineers (ASHRAE)","American Society of Mechanical Engineers (ASME)"," Associated Ge Association of Facilities Engineers (AFE)"," Biomedical Engineering Society (BMES)","neral Contractors (AGC)","Human Factors and Ergonomics Society","Institute of Electrical & Electronic Engineers (IEEE)"," IEEE – Components, Packaging, & Manufacturing Technology (CMPT)","Institute of Industrial Engineers (IIE)","Institute of Transportation Engineers (ITE)","Int’l Society for Pharmaceutical Engineers (ISPE) Materials Advantage","Society for Computer Engineering (SCE)","Society of Automotive Engineers Int’l (SAE)","Society of Manufacturing Engineers (SME)","Society of Plastic Engineers (SPE)","Water Environment Engineering Organization (WEEO)","Amateur Radio Club","Applied Engineering Club","Concrete Canoe Team","Earthquake Engineering Research Institute The Flying 20","Project Enable"," Robotics Club"," SAE – Baja Vehicle","SAE – Formula Vehicle","SAE – Hybrid/Electric Vehicle","SJSU Precision Flight Team","Spartan AUV – autonomous unmanned vehicle Steel Bridge Team","Wastewater Treatment Team","Black Alliance of Scientists and Engineers (BASE)"," Engineering to Harness & Optimize Sustainability (ETHOS)","Engineers Without Borders","Society of Latino Engineers and Scientists (SOLES)","Society of Women Engineers (SWE)","Vietnamese Engineering Students Association Women in Aviation"]
+            dep = [""]
             
         case 22:
             dep = ["testyah"]
         case 23:
             dep = ["teaytasdktj;oaw"]
         case 24:
-            dep = [""]
+            dep = ["Industrial Studies Department"]
         case 25:
             dep = [""]
         case 26:
@@ -101,6 +150,15 @@ class DepartmentsTableViewController: UITableViewController
             dep = [""]
         case 40:
             dep = [""]
+        case 41:
+            dep = [""]
+        
+        case 42:
+            dep = ["none"]
+        case 43:
+            dep = ["African American Studies Department"]
+        case 44:
+                dep = [""]
         default:
             dep = [""]
         }
